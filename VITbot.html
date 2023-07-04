@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bo otstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0px;
+        }
+    .bg-container{
+        background-color: rgb(224, 223, 238);
+        background-size: cover;
+        width: 100%;      
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #649fde;
+  width: 100%;
+  text-align: center;
+  
+}
+li {
+  float: left;
+  text-align: center; 
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+li a:hover {
+  background-color: lightblue;
+  text-align: center;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #b057aa 5%,
+    #0b0b0b 29%,
+    #0b0b09 67%,
+    #649fde 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;     
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.bg-container2{
+    text-align: center;
+    font-size: 200px;
+    margin: 70px;
+    font-family: 'Times New Roman', Times, serif;
+  border: 3px solid #070807;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+.happy{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+.sad{
+    font-size: 70px;
+    font-family: 'Times New Roman';
+    color: #3c87d8;    
+}
+.tagline{
+    font-size: 50px;
+}
+.image{
+   
+  border-radius: 150px;
+  padding: 20px;
+}
+.fa {
+  padding: 10px;
+  border-radius: '1s%';
+  font-size: 30px;
+  width : 200px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white; 
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.ranking{
+    width: 100%;
+}
+.socialmedia{
+   text-align: center; 
+}
+.links{
+text-align: center;
+padding-left: 480px;
+width: 100%;
+font-size: 25px;
+overflow: auto;
+}
+    </style>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "45fcdd5b-e129-45d4-879a-ea567c4146ae", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "48241b15-44a6-462e-8be8-b441da88f814", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </head>
+    <body>
+        <div class="bg-container">
+          <center><a class="animate-charcter"><b>VELLORE INSTITUTE OF TECHNOLOGY </b></a></center>
+        <ul>
+            <div class="links">
+           <li><a href="https://vit.ac.in/" >VIT-VELLORE</a></li>
+            <li><a href="https://chennai.vit.ac.in/">VIT-CHENNAI</a></li>
+            <li><a href="https://vitap.ac.in/">VIT-AP</a></li>
+            <li><a href="https://vitbhopal.ac.in/">VIT-BHOPAL</a></li>
+            <li><a href="https://vitbangalore.in/">VIT-BANGALORE</a></li>
+        </div>  
+          </ul>
+          <div class="bg-container2">
+            <img  class="image"   align="left" src="https://res.cloudinary.com/dgdkjxzra/image/upload/v1688135899/gj_blvtds.jpg" width="400" height="400"  > 
+             <b>VITbot</b>
+             <p class="tagline">The virtual assistant for VIT University</p>
+          </div>
+          <b class="sad">Highlights  of  VIT</b></h1>
+          <br>
+          <P class="happy">Vellore Institute of Technology was established in 1984 and is approved by UGC and accredited with A ++ Grade by NAAC, MHRD. Being a private deemed to be university, the VIT Vellore is ranked 173 under the QS Asia World University category by QS World University Rankings 2023. VIT University, through 15 schools of study, offers UG, PG, PhD courses to students across the Management, Engineering, Science, and other streams. VIT Vellore comprises three other campuses located in Bhopal, Chennai, Amaravati and Bangalore is run and managed by the VIT Group of Institutes. VIT also has VIT Online Learning Institute which offers online courses to students. </P><br>
+          <p class="happy">Internationally, VIT was ranked 1001–1200 in the QS World University Rankings of 2023 and 173 in Asia. It was ranked 801–1000 in the world by the Times Higher Education World University Rankings of 2023,251–300 in Asia in 2022 and 301–350 among emerging economies. It was ranked 601–700 in the Academic Ranking of World Universities of 2022.</p>
+           <img  class="ranking"src="https://res.cloudinary.com/dgdkjxzra/image/upload/v1688133184/1_bbsyqk.png">
+    <div class="socialmedia">       
+<a href="https://twitter.com/VIT_univ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/school/vellore-institute-of-technology/" class="fa fa-linkedin"></a>
+<a href="https://www.youtube.com/@VITUniversityVellore" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/vellore_vit/?hl=en" class="fa fa-instagram"></a>
+</div>
+        </div>   
+    </body>
+</html>
